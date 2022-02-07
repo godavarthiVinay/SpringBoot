@@ -1,0 +1,32 @@
+
+table{
+    border: 1px solid lightgray;
+    width: 80%;
+    margin-top: 1rem;
+}
+table tr,td{
+    padding: 0.8rem 0.8rem;
+    text-align: center;
+}
+
+.addButton{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: flex-end;
+    margin-right: 1rem;
+}
+.addButton a{
+    border: 1px solid lightgray;
+    padding: 0.5rem;
+    border-radius: 5px;
+    background-color: chocolate;
+    cursor: pointer;
+    text-decoration: none;
+    font-style: normal;
+    color: antiquewhite;
+}
+.addButton span{
+    font-size: 20px;
+    padding-right: 10px;
+}
